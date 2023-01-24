@@ -8,7 +8,7 @@ export const CounterComponent = ({ className, state } : ICounterProps) => {
         if (state.count === 0) {
             classes += " btn-warning"
         } else {
-            classes += " btn-primary ms-2"
+            classes += " btn-primary ms-4"
         }
         return classes;
     };

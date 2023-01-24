@@ -4,6 +4,7 @@ import { getCounter } from "../../services/counter.service";
 export function UseCounterContainer() {
     const CounterArray = getCounter();
 
+
     const [counters, setCounters] = useState(CounterArray);
     const [total, setTotal] = useState(0);
 

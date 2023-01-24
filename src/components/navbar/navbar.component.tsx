@@ -16,6 +16,9 @@ export function NavbarComponent() {
                     <li className="nav-item">
                         <Link to={"/contactus"} className="nav-link active">Contact us</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to={"/students"} className="nav-link active">Students</Link>
+                    </li>
                 </ul>
             </nav>
 
