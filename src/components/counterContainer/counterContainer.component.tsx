@@ -8,13 +8,13 @@ import "./style.css";
 
 
 export const CounterContainerComponent = () => {
-    
-    const { total, counters, handleDelete, handleIncrement, handleDecrement, handleReset} = UseCounterContainer()
+
+    const { total, counters, handleDelete, handleIncrement, handleDecrement, handleReset } = UseCounterContainer()
 
     return <div className="counters-main-container">
         <nav className="navbar navbar-light bg-light">
             <div className="btn btn-primary">
-                {total}                
+                {total}
             </div>
         </nav>
         <div className="counters-container">
@@ -34,7 +34,6 @@ export const CounterContainerComponent = () => {
                     }}
                 />
             </>)}
-        
         </div>
     </div>;
 }

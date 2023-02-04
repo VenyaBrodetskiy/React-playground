@@ -9,6 +9,7 @@ import { StudentsPage } from './pages/students/students.page';
 import { StudentPage } from './pages/student/student.page';
 
 import './app.css';
+import TodoPage from './pages/todo/todo.page';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/contactus" element={<ContactUsPage />}></Route>
             <Route path="/students" element={<StudentsPage />}></Route>
             <Route path="/student/:id" element={<StudentPage />}></Route>
+            <Route path="/to-do-list" element={<TodoPage />}></Route>
         </Routes>  
     </div>
   );
